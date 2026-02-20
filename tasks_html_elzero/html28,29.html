@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html28/29</title>
+</head>
+
+<body>
+    <form action="p.php" method="post" target="_blank">
+        <div>
+            <label for="se">Search</label><br><br>
+            <input id="se" autofocus type="search" name="search-val" placeholder="Enter a search word"></div>
+        <div><br>
+            <label for="up">upload</label><br><br>
+            <input id="up" type="file" name="uploadl" value="choose file">
+        </div><br>
+        <div>
+            <label for="url">Url</label><br><br>
+            <input id="url" formnovalidate required type="url" name="url" value="">
+        </div><br>
+        <div>
+            <label for="dat">Date</label>
+            <input id="dat" type="date" name="date">
+        </div><br><br>
+        <div>
+            <label for="mont">month</label>
+            <input id="mont" type="month" name="month">
+        </div><br><br>
+        <input type="reset" value="empty">
+        <input type="submit" value="save">
+    </form>
+</body>
+
+</html>
